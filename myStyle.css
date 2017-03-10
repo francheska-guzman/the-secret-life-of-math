@@ -46,42 +46,91 @@ h2 {
 	padding-top: 83px;
 }
 
-#bigger {
+.big {
 	font-size: 50px;
 }
 
-#bigT {
+.bigger {
 	font-size: 270px;
 }
 
-#smallH {
+.small {
 	font-size: 90px;
 }
 
-#calculator {
-	margin: 700px 0 0 0;
-	display: inline-block;
+#math {
+	margin: 650px 0 0 0;
+	width: 1200px;
+	height: 350px;
 	position: absolute;
-	width: 100%;
-	height: 500px;
+	display: flex;
 }
 
 #dogAsking {
-	width: 600px;
+	width: 700px;
+	height: 350px;
+	padding-top: 100px;
+	flex: 1;
+}
+
+.red {
+	color: #FC3B2B;
+}
+
+.yellow {
+	color: #F1F902;
+}
+
+.blue {
+	color: #2E5A7A;
+}
+
+.green {
+	color: #467743;
 }
 
 img {
+	padding-top: 80px;
+	margin: 0;
 	width: 250px;
 	height: 350px;
+	float: left;
 }
 
 p {
+	padding-top: 150px;
 	font-family: 'petFont';
-	font-size: 30px;
+	font-size: 35px;
 	color: #827466;
 	text-align: center;
 }
 
-#calc {
-	background-color: #261401;
+#calculator {
+	width: 500px;
+	height: 550px;
+	background-color: #D6CFCF;
+}
+
+table {
+	text-align: center;
+}
+
+input[type=text] {
+	width: 400px;
+	height: 50px;
+	font-size: 40px;
+}
+
+input[type=button] {
+	margin: 10px;
+	padding: 40px;
+	width: 100px;
+	height: 100px;
+}
+
+input[type=reset] {
+	margin: 10px;
+	padding: 20px;
+	width: 100px;
+	height: 100px;
 }
