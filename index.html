@@ -7,6 +7,7 @@ CodeBridge Cycle 2 Cohort 4
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="myStyle.css"> <!-- External CSS File -->
+	<script type="text/javascript" src="myScript.js"></script> <!-- External JavaScript File -->
 	<title>The Secret Life of Math</title>
 </head>
 
@@ -32,42 +33,42 @@ CodeBridge Cycle 2 Cohort 4
 	<td>
 	<input type="text" name="input" size="70">
 	<br>
-	<input type="reset" value="RESET">
+	<input type="reset" value="RESET" OnClick="Calculator.input.value+='0'">
 	</td>
 	</tr>
 	<tr>
 	<td>
-	<input type="button" value="1" onClick="document.calculator.ans.value+='7'">
-	<input type="button" value="2" onClick="document.calculator.ans.value+='8'">
-	<input type="button" value="3" onClick="document.calculator.ans.value+='9'">
-	<input type="button" value="x" onClick="document.calculator.ans.value+='*'">
+	<input type="button" value="1" onClick="Calculator.input.value+='7'">
+	<input type="button" value="2" onClick="Calculator.input.value+='8'">
+	<input type="button" value="3" onClick="Calculator.input.value+='9'">
+	<input type="button" value="x" onClick="Calculator.input.value+='*'">
 	</td>
  	</tr>
  	<br>
  	<tr>
  	<td>
-	<input type="button" value="4" onClick="document.calculator.ans.value+='4'">
-	<input type="button" value="5" onClick="document.calculator.ans.value+='5'">
-	<input type="button" value="6" onClick="document.calculator.ans.value+='6'">
-	<input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+	<input type="button" value="4" onClick="Calculator.input.value+='4'">
+	<input type="button" value="5" onClick="Calculator.input.value+='5'">
+	<input type="button" value="6" onClick="Calculator.input.value+='6'">
+	<input type="button" value="-" onClick="Calculator.input.value+='-'">
 	</td>
 	</tr>
 	<br>
 	<tr>
 	<td>
-	<input type="button" value="7" onClick="document.calculator.ans.value+='7'">
-	<input type="button" value="8" onClick="document.calculator.ans.value+='8'">
-	<input type="button" value="9" onClick="document.calculator.ans.value+='9'">
-	<input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+	<input type="button" value="7" onClick="Calculator.input.value+='7'">
+	<input type="button" value="8" onClick="Calculator.input.value+='8'">
+	<input type="button" value="9" onClick="Calculator.input.value+='9'">
+	<input type="button" value="+" onClick="Calculator.input.value+='+'">
 	</td>
 	</tr>
 	<br>
 	<tr>
 	<td>
-	<input type="button" value="AVERAGE" onClick="document.calculator.ans.value+='average'">
-	<input type="button" value="0" onClick="document.calculator.ans.value+='0'">
-	<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
-	<input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+	<input type="button" value="AVERAGE" onClick="Calculator.input.value='average()'">
+	<input type="button" value="0" onClick="Calculator.input.value+='0'">
+	<input type="button" value="=" onClick="Calculator.input.value=eval(Calculator.input.value)">
+	<input type="button" value="/" onClick="Calculator.input.value+='/'">
 	</td>
 	</tr>
 </table>
