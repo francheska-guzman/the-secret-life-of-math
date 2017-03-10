@@ -106,31 +106,39 @@ p {
 }
 
 #calculator {
-	width: 500px;
-	height: 550px;
-	background-color: #D6CFCF;
+	width: 490px;
+	height: 600px;
+	background-color: #e2dedc;
 }
 
 table {
 	text-align: center;
+	padding: 40px;
 }
 
 input[type=text] {
 	width: 400px;
 	height: 50px;
 	font-size: 40px;
+	background-color: #998477;
 }
 
 input[type=button] {
-	margin: 10px;
-	padding: 40px;
-	width: 100px;
-	height: 100px;
+	margin: 2px;
+	padding: 10px;
+	width: 70px;
+	height: 70px;
+	border-radius: 1px;
+	background-color: #959ea0;
+	font-size: 20px;
 }
 
 input[type=reset] {
-	margin: 10px;
-	padding: 20px;
-	width: 100px;
-	height: 100px;
+	margin: 2px;
+	padding: 10px;
+	width: 70px;
+	height: 70px;
+	border-radius: 1px;
+	background-color: #959ea0;
+	font-size: 20px;
 }
