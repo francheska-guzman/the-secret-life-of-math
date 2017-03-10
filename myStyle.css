@@ -9,7 +9,7 @@
 body {
 	margin: 0 auto;
 	background: url('images/petGround.jpg') no-repeat;
-	background-color: #3D2103;
+	background-color: #3D2103; /* Brown */
 	opacity: .9;
 }
 
@@ -64,4 +64,24 @@ h2 {
 	position: absolute;
 	width: 100%;
 	height: 500px;
+}
+
+#dogAsking {
+	width: 600px;
+}
+
+img {
+	width: 250px;
+	height: 350px;
+}
+
+p {
+	font-family: 'petFont';
+	font-size: 30px;
+	color: #827466;
+	text-align: center;
+}
+
+#calc {
+	background-color: #261401;
 }
