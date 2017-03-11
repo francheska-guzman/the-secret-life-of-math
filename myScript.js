@@ -1,3 +1,8 @@
+/*
+Francheska Guzman 
+CodeBridge Cycle 2 Cohort 4
+March 11, 2017
+*/
 var myNumbers = document.getElementById("myNum");
 var myArray = myNumbers.split(" ");
 var sum;

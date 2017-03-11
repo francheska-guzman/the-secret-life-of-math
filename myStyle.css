@@ -1,3 +1,17 @@
+/*
+Francheska Guzman 
+CodeBridge Cycle 2 Cohort 4
+March 11, 2017
+*/
+body {
+	margin: 0 auto;
+	background: url('images/petGround.jpg') no-repeat;
+	background-color: #261717; /* Brown */
+	opacity: .9;
+}
+
+/* Fonts */
+
 @font-face {
     font-family: 'petFont';
     src: url("fonts/petFont.woff");
@@ -6,12 +20,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:900');
 
-body {
-	margin: 0 auto;
-	background: url('images/petGround.jpg') no-repeat;
-	background-color: #261717; /* Brown */
-	opacity: .9;
-}
+/* All about the logo (header, #logo, h1 and h2 and classes). */
 
 header {
 	width: 100%;
@@ -58,25 +67,7 @@ h2 {
 	font-size: 90px;
 }
 
-.red {
-	color: #FC3B2B;
-}
-
-.yellow {
-	color: #FFF203;
-}
-
-.blue {
-	color: #2E5A7A;
-}
-
-.green {
-	color: #467743;
-}
-
-.grey {
-	color: #69899E;
-}
+/* All about the body. */
 
 #math {
 	margin: 595px 0 0 0;
@@ -107,16 +98,38 @@ p {
 	text-align: center;
 }
 
+.red {
+	color: #FC3B2B;
+}
+
+.yellow {
+	color: #FFF203;
+}
+
+.blue {
+	color: #2E5A7A;
+}
+
+.green {
+	color: #467743;
+}
+
+.grey {
+	color: #69899E;
+}
+
+/* Calculator */
+
 table {
 	width: 500px;
 	height: 550px;
 	padding: 40px;
 	text-align: center;
-	background-color: #3A2E2E;
+	background-image: url("images/calcBackground.jpg");
 }
 
 input[type=text] {
-	width: 375px;
+	width: 350px;
 	height: 80px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 45px;
@@ -129,9 +142,9 @@ input[type=button], input[type=reset] {
 	margin: 1px;
 	padding: 10px;
 	width: 80px;
-	height: 75px;
-	border-radius: 1px;
-	background-color: #AfA5A5;
+	height: 60px;
+	border-radius: 10px;
+	background-color: #847A77;
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	border: none;
@@ -157,17 +170,17 @@ input[type=button], input[type=reset] {
 	transition: 0.5s;
 }
 
-.turnBrown:hover {
-	background-color: #D8D0D0;
+.turnLight:hover {
+	background-color: #EAE5E3;
 	transition: 0.5s;
 }
 
-input.turnBrownD {
+input.turnLightD {
 	width: 165.5px;
 }
 
-.turnBrownD:hover {
-	background-color: #D8D0D0;
+.turnLightD:hover {
+	background-color: #EAE5E3;
 	transition: 0.5s;
 }
 
