@@ -9,7 +9,7 @@
 body {
 	margin: 0 auto;
 	background: url('images/petGround.jpg') no-repeat;
-	background-color: #3D2103; /* Brown */
+	background-color: #261717; /* Brown */
 	opacity: .9;
 }
 
@@ -112,7 +112,7 @@ table {
 	height: 550px;
 	padding: 40px;
 	text-align: center;
-	background-color: #230D02;
+	background-color: #3A2E2E;
 }
 
 input[type=text] {
@@ -131,7 +131,7 @@ input[type=button], input[type=reset] {
 	width: 80px;
 	height: 75px;
 	border-radius: 1px;
-	background: #3D1D1D;
+	background-color: #AfA5A5;
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	border: none;
@@ -158,7 +158,7 @@ input[type=button], input[type=reset] {
 }
 
 .turnBrown:hover {
-	background-color: #5E3838;
+	background-color: #D8D0D0;
 	transition: 0.5s;
 }
 
@@ -167,15 +167,11 @@ input.turnBrownD {
 }
 
 .turnBrownD:hover {
-	background-color: #5E3838;
+	background-color: #D8D0D0;
 	transition: 0.5s;
 }
 
 .turnGrey:hover{
 	background-color: #69899E;
 	transition: 0.5s;
-}
-
-.equalImage {
-	background: url(images/equal.png) no-repeat;
 }
