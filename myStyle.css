@@ -175,17 +175,22 @@ input[type=button], input[type=reset] {
 	transition: 0.5s;
 }
 
-input.turnLightD {
-	width: 165.5px;
-}
-
-.turnLightD:hover {
-	background-color: #EAE5E3;
-	transition: 0.5s;
+.turnGrey{
+	background-color: #69899E;
 }
 
 .turnGrey:hover{
 	transition: 0.5s;
 	background-image: url(images/equalButton.png);
 	background-color: #FFFFFF;
+	color: transparent;
+}
+
+input.turnLightD {
+	width: 165.5px; /* More width the Average and 0 button. */
+}
+
+.turnLightD:hover {
+	background-color: #EAE5E3;
+	transition: 0.5s;
 }
