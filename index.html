@@ -29,6 +29,7 @@ March 11, 2017
 Could you help me <span class="red">add</span>, 
 <span class="yellow">subtract</span>, <span class="blue">multiply</span> 
 and <span class="green">divide</span>?</p>
+<h3>Note: To compute the average, use the comma character between numbers.</h3>
 </div>
 <!-- Calculator -->
 <form name="Calculator">
@@ -38,7 +39,8 @@ and <span class="green">divide</span>?</p>
 	<input type="text" name="input" size="20" id="output">
 	<br/><br/><br/>
 	<input type="reset" value="AC" onClick="Calculator.input.value+='0'" class="turnLight">
-	<input type="button" value="AVERAGE" onClick="Calculator.input.value=average()" class="turnLightD">
+	<input type="button" value="AVE" onClick="Calculator.input.value=average()" class="turnLight">
+		<input type="button" value="," onClick="Calculator.input.value+=','" class="turnLight">
 	<input type="button" value="/" onClick="Calculator.input.value+='/'" class="turnGreen">
 	</td>
 	</tr>
@@ -83,19 +85,18 @@ and <span class="green">divide</span>?</p>
 <!-- Calculate the Average -->
 <script>
 var stringNumbers = Calculator.input.value;
-var arrayNumbers = stringNumbers.split("."); // Change a string of numbers into an array.
+var arrayNumbers = stringNumbers.split(","); // Change a string of numbers into an array.
 var count = arrayNumbers.lenght;
-var sum;
+var sum = 0;
 var result;
 
-function average () {
-	for (var i = 0; i < count; i++) {
-		sum = sum + arrayNumbers[i];
+	function average () {
+		for (var i = 0; i < count; i++) {
+			sum = sum + Number(arrayNumbers[i]);
+		}
 		result = sum/count;
-	}
-	return result;
-};
-document.getElementByID("output") = result;
+		return result;
+	};
 </script>
 
 </body>

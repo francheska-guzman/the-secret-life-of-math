@@ -55,6 +55,13 @@ h2 {
 	padding-top: 83px;
 }
 
+h3 {
+	font-family: 'petFont';
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+}
+
 .big {
 	font-size: 50px;
 }
@@ -83,7 +90,7 @@ h2 {
 }
 
 img {
-	padding-top: 150px;
+	padding-top: 110px;
 	margin: 0;
 	width: 250px;
 	height: 350px;
@@ -91,7 +98,7 @@ img {
 }
 
 p {
-	padding: 190px 50px 0 0;
+	padding: 160px 50px 0 0;
 	font-family: 'petFont';
 	font-size: 40px;
 	color: #FFFFFF;
