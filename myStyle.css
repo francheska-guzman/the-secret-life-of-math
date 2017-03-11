@@ -195,3 +195,7 @@ input.turnLightD {
 	background-color: #EAE5E3;
 	transition: 0.5s;
 }
+
+#Instructions {
+	display: block;
+}

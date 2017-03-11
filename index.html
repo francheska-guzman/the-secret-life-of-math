@@ -35,10 +35,10 @@ and <span class="green">divide</span>?</p>
 <table>
 	<tr>
 	<td>
-	<input type="text" name="input" size="20" id="Aoutput">
+	<input type="text" name="input" size="20" id="output">
 	<br/><br/><br/>
 	<input type="reset" value="AC" onClick="Calculator.input.value+='0'" class="turnLight">
-	<input type="button" value="AVERAGE" onClick="Calculator.input.value='average()'" id="Ainput" class="turnLightD">
+	<input type="button" value="AVERAGE" onClick="Calculator.input.value=average()" class="turnLightD">
 	<input type="button" value="/" onClick="Calculator.input.value+='/'" class="turnGreen">
 	</td>
 	</tr>
@@ -82,24 +82,20 @@ and <span class="green">divide</span>?</p>
 
 <!-- Calculate the Average -->
 <script>
-var stringNumbers = document.getElementByID("Ainput");
-var arrayNumbers = stringNumbers.split(" "); // Change a string of numbers into an array.
+var stringNumbers = Calculator.input.value;
+var arrayNumbers = stringNumbers.split("."); // Change a string of numbers into an array.
 var count = arrayNumbers.lenght;
 var sum;
 var result;
 
-function sum () {
+function average () {
 	for (var i = 0; i < count; i++) {
 		sum = sum + arrayNumbers[i];
+		result = sum/count;
 	}
-	return sum;
-}
-
-function average () {
-	sum (); // Call the function sum.
-	result = sum/count;
-	document.getElementByID("Aoutput").value.innerHTML = result;
-}
+	return result;
+};
+document.getElementByID("output") = result;
 </script>
 
 </body>
