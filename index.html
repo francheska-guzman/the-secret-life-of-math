@@ -23,57 +23,56 @@ CodeBridge Cycle 2 Cohort 4
 <div id="math">
 <div id="dogAsking">
 <img src="images/max.png" alt="Max from the Secret Life of Pets">
-<p>Hi, I&apos;m Max!<br/><br/>Could you help me <span class="red">add</span>, <span class="yellow">subtract</span>, <span class="blue">multiply</span> and <span class="green">divide</span>?</p>
+<p>Hi, I&apos;m <span class="grey">Max</span>!<br/><br/>Could you help me <span class="red">add</span>, <span class="yellow">subtract</span>, <span class="blue">multiply</span> and <span class="green">divide</span>?</p>
 </div>
 <!-- Calculator -->
-<div id="calculator">
 <form name="Calculator">
 <table>
 	<tr>
 	<td>
-	<input type="text" name="input" size="70">
+	<input type="text" name="input" size="50">
 	<br/><br/><br/>
-	<input type="reset" value="AC" OnClick="Calculator.input.value+='0'">
+	<input type="reset" value="AC" onClick="Calculator.input.value+='0'" class="turnBrown">
+	<input type="button" value="AVERAGE" onClick="Calculator.input.value='average()'" class="turnBrownD">
+	<input type="button" value="/" onClick="Calculator.input.value+='/'" class="turnGreen">
 	</td>
 	</tr>
 	<tr>
 	<td>
-	<input type="button" value="7" onClick="Calculator.input.value+='7'">
-	<input type="button" value="8" onClick="Calculator.input.value+='8'">
-	<input type="button" value="9" onClick="Calculator.input.value+='9'">
-	<input type="button" value="x" onClick="Calculator.input.value+='*'">
+	<input type="button" value="7" onClick="Calculator.input.value+='7'" class="turnBrown">
+	<input type="button" value="8" onClick="Calculator.input.value+='8'" class="turnBrown">
+	<input type="button" value="9" onClick="Calculator.input.value+='9'" class="turnBrown">
+	<input type="button" value="x" onClick="Calculator.input.value+='*'" class="turnBlue">
 	</td>
  	</tr>
  	<br>
  	<tr>
  	<td>
-	<input type="button" value="4" onClick="Calculator.input.value+='4'">
-	<input type="button" value="5" onClick="Calculator.input.value+='5'">
-	<input type="button" value="6" onClick="Calculator.input.value+='6'">
-	<input type="button" value="-" onClick="Calculator.input.value+='-'">
+	<input type="button" value="4" onClick="Calculator.input.value+='4'" class="turnBrown">
+	<input type="button" value="5" onClick="Calculator.input.value+='5'" class="turnBrown">
+	<input type="button" value="6" onClick="Calculator.input.value+='6'" class="turnBrown">
+	<input type="button" value="-" onClick="Calculator.input.value+='-'" class="turnYellow">
 	</td>
 	</tr>
 	<br>
 	<tr>
 	<td>
-	<input type="button" value="1" onClick="Calculator.input.value+='1'">
-	<input type="button" value="2" onClick="Calculator.input.value+='2'">
-	<input type="button" value="3" onClick="Calculator.input.value+='3'">
-	<input type="button" value="+" onClick="Calculator.input.value+='+'">
+	<input type="button" value="1" onClick="Calculator.input.value+='1'" class="turnBrown">
+	<input type="button" value="2" onClick="Calculator.input.value+='2'" class="turnBrown">
+	<input type="button" value="3" onClick="Calculator.input.value+='3'" class="turnBrown">
+	<input type="button" value="+" onClick="Calculator.input.value+='+'" class="turnRed">
 	</td>
 	</tr>
 	<br>
 	<tr>
 	<td>
-	<input type="button" value="AVE" onClick="Calculator.input.value='average()'">
-	<input type="button" value="0" onClick="Calculator.input.value+='0'">
-	<input type="button" value="=" onClick="Calculator.input.value=eval(Calculator.input.value)">
-	<input type="button" value="/" onClick="Calculator.input.value+='/'">
+	<input type="button" value="0" onClick="Calculator.input.value+='0'" class="turnBrownD">
+	<input type="button" value="." onClick="Calculator.input.value+='.'" class="turnBrown">
+	<input type="button" value="=" onClick="Calculator.input.value=eval(Calculator.input.value)" class="turnGrey">
 	</td>
 	</tr>
 </table>
 </form>
-</div>
 </div>
 
 </body>
