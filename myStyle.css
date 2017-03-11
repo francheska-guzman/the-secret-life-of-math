@@ -148,6 +148,7 @@ input[type=button], input[type=reset] {
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	border: none;
+	box-shadow: 0 8px 18px 0 rgba(0,0,0,0.5), 0 5px 20px 0 rgba(0,0,0,0.20);
 }
 
 .turnRed:hover {
@@ -175,15 +176,15 @@ input[type=button], input[type=reset] {
 	transition: 0.5s;
 }
 
-.turnGrey{
-	background-color: #69899E;
+input.turnGrey{
+	background-color: #594242;
 }
 
 .turnGrey:hover{
-	transition: 0.5s;
 	background-image: url(images/equalButton.png);
 	background-color: #FFFFFF;
 	color: transparent;
+	transition: 0.5s;
 }
 
 input.turnLightD {
