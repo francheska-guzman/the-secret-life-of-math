@@ -3,11 +3,11 @@ Francheska Guzman
 CodeBridge Cycle 2 Cohort 4
 March 11, 2017
 -->
+
 <!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="myStyle.css"> <!-- External CSS File -->
-	<script type="text/javascript" src="myScript.js"></script> <!-- External JavaScript File -->
 	<title>The Secret Life of Math</title>
 </head>
 
@@ -34,10 +34,10 @@ and <span class="green">divide</span>?</p>
 <table>
 	<tr>
 	<td>
-	<input type="text" name="input" size="30">
+	<input type="text" name="input" size="20" id="Aoutput">
 	<br/><br/><br/>
 	<input type="reset" value="AC" onClick="Calculator.input.value+='0'" class="turnLight">
-	<input type="button" value="AVERAGE" onClick="Calculator.input.value='average()'" class="turnLightD">
+	<input type="button" value="AVERAGE" onClick="Calculator.input.value='average()'" id="Ainput" class="turnLightD">
 	<input type="button" value="/" onClick="Calculator.input.value+='/'" class="turnGreen">
 	</td>
 	</tr>
@@ -78,6 +78,27 @@ and <span class="green">divide</span>?</p>
 </table>
 </form>
 </div>
+<!-- Calculate the Average -->
+<script>
+var stringNumbers = document.getElementByID("Ainput");
+var arrayNumbers = stringNumbers.split(" "); // Change a string of numbers into an array.
+var count = arrayNumbers.lenght;
+var sum;
+var result;
+
+function sum () {
+	for (var i = 0; i < count; i++) {
+		sum = sum + arrayNumbers[i];
+	}
+	return sum;
+}
+
+function average () {
+	sum (); // Call the function sum.
+	result = sum/count;
+	document.getElementByID("Aoutput").value.innerHTML = result;
+}
+</script>
 </body>
 <footer>
 	<audio autoplay>

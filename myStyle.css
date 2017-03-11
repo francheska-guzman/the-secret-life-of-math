@@ -129,7 +129,7 @@ table {
 }
 
 input[type=text] {
-	width: 350px;
+	width: 335px;
 	height: 80px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 45px;
@@ -148,7 +148,7 @@ input[type=button], input[type=reset] {
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	border: none;
-	box-shadow: 0 8px 18px 0 rgba(0,0,0,0.5), 0 5px 20px 0 rgba(0,0,0,0.20);
+	box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.5), 0 5px 20px 0 rgba(0, 0, 0, 0.20);
 }
 
 .turnRed:hover {
