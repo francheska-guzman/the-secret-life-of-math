@@ -187,7 +187,7 @@ input[type=button], input[type=reset] {
 }
 
 input.turnLightD {
-	width: 165.5px; /* More width the Average and 0 button. */
+	width: 165.5px; /* Width for the Average and 0 button. */
 }
 
 .turnLightD:hover {
