@@ -190,9 +190,7 @@ input.turnGrey{
 
 .turnGrey:hover{
 	background-image: url(images/equalButton.png);
-	background-color: #FFFFFF;
 	color: transparent;
-	transition: 0.5s;
 }
 
 input.turnLightD {

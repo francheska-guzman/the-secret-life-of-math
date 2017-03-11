@@ -36,7 +36,7 @@ and <span class="green">divide</span>?</p>
 <table>
 	<tr>
 	<td>
-	<input type="text" name="input" size="20" id="output">
+	<input type="text" name="input" size="20">
 	<br/><br/><br/>
 	<input type="reset" value="AC" onClick="Calculator.input.value+='0'" class="turnLight">
 	<input type="button" value="AVE" onClick="Calculator.input.value=average()" class="turnLight">
@@ -84,7 +84,8 @@ and <span class="green">divide</span>?</p>
 <!-- Calculate the Average -->
 <script>
 var stringNumbers = Calculator.input.value;
-var arrayNumbers = stringNumbers.split(", "); // Change a string of numbers into an array.
+// Change a string of numbers, spaces and commas, into an array of separated numbers.
+var arrayNumbers = stringNumbers.split(", ");
 var count = arrayNumbers.length;
 var sum = 0;
 
