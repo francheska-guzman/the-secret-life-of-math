@@ -82,16 +82,15 @@ and <span class="green">divide</span>?</p>
 </form>
 </div>
 <!-- Calculate the Average -->
-<script>
+<script type="text/javascript">
+function average () {
 var stringNumbers = Calculator.input.value;
 // Change a string of numbers, spaces and commas, into an array of separated numbers.
 var arrayNumbers = stringNumbers.split(", ");
 var count = arrayNumbers.length;
 var sum = 0;
-
-	function average () {
 		for (var i = 0; i < count; i++) {
-			sum = sum + arrayNumbers[i];
+			sum = sum + Number(arrayNumbers[i]);
 		}
 		return sum/count;
 	};
