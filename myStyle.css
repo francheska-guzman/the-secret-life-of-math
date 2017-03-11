@@ -58,7 +58,7 @@ h2 {
 h3 {
 	font-family: 'petFont';
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 15px;
 	text-align: center;
 }
 
@@ -195,7 +195,7 @@ input.turnGrey{
 }
 
 input.turnLightD {
-	width: 165.5px; /* Width for the Average and 0 button. */
+	width: 165.5px; /* Width for 0 button. */
 }
 
 .turnLightD:hover {
