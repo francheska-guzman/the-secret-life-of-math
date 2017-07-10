@@ -7,7 +7,7 @@
 3. [How to use](#instructions)
 4. [Technologies used](#technologies)
 
-## <a id="about">About the Project</a>
+## <a id="about">About the project</a>
 
 Per Scholas' CodeBridge Program, Cohort 4
 <br />
