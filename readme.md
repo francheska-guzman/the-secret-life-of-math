@@ -1,4 +1,4 @@
-Per Scholas | Project 3
+Per Scholas | Project 3 (March 11, 2017)
 
 # The Secret Life of Math, a calculator.
 
