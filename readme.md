@@ -19,11 +19,11 @@ Developed by Francheska Guzman
 
 ## <a id="description">Description</a>
 
-Help Max with Math, while at the same time enjoy the song Meet the Pets.
+Help Max with the calculator, while at the same time enjoy the song Meet the Pets.
 
 ## <a id="instructions">How to use</a>
 
-Visit the site. The calculator is located at the bottom. To compute the average, use the comma character provided in the calculator to separate values. Then, press AVE.
+Visit the site. The calculator is located at the bottom of the page. To compute the average, use the comma character provided in the calculator to separate values. Then, press AVE.
 
 ## <a id="technologies">Technologies used</a>
 
