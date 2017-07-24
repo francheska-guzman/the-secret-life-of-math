@@ -7,7 +7,7 @@ March 11, 2017
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="myStyle.css"> <!-- External CSS File -->
+	<link rel="stylesheet" type="text/css" href="style.css"> <!-- External CSS File -->
 	<title>The Secret Life of Math</title>
 </head>
 
@@ -81,20 +81,7 @@ and <span class="green">divide</span>?</p>
 </table>
 </form>
 </div>
-<!-- Calculate the Average -->
-<script type="text/javascript">
-function average () {
-var stringNumbers = Calculator.input.value;
-// Change a string of numbers, spaces and commas, into an array of separated numbers.
-var arrayNumbers = stringNumbers.split(", ");
-var count = arrayNumbers.length;
-var sum = 0;
-		for (var i = 0; i < count; i++) {
-			sum = sum + Number(arrayNumbers[i]);
-		}
-		return sum/count;
-	};
-</script>
+<script src='script.js'></script>
 </body>
 <footer>
 	<audio autoplay>

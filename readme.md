@@ -25,4 +25,4 @@ Visit the site. The calculator is located at the bottom of the page. To compute 
 
 * HTML
 * CSS
-* JavaScript - At the end of the index.html file.
+* JavaScript
