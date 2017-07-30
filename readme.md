@@ -1,4 +1,4 @@
-# The Secret Life of Math (Calculator)
+# <a id="project">The Secret Life of Math (Calculator)</a>
 
 ### Table of Contents
 
@@ -37,3 +37,5 @@ Chrome – Version 59.0.3071.115
 Firefox – Version 54.0.1
 
 Safari – Version 9.1.2
+
+#### [Go back to the Table of Contents](#project)

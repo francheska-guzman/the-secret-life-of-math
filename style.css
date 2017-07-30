@@ -23,23 +23,26 @@ body {
 
 /* All about the logo (header, #logo, h1 and h2 and classes). */
 
-header {
-	width: 100%;
-	height: 500px;
-}
-
 #logo {
 	position: fixed;
+	margin: 0 0 0 40px;
 }
 
+#calc-logo {
+	width: 400px;
+	height: 263px;
+	margin: 0;
+}
+
+/*
 h1 {
 	margin: 0 0 0 40px;
 	width: 250px;
 	padding: 10px;
-	background-color: #FC3B2B; /* Red */
+	background-color: #FC3B2B;
 	text-transform: uppercase;
 	font-size: 30px;
-	color: #FFFFFF; /* White */
+	color: #FFFFFF;
 	text-align: center;
 	font-family: 'petFont';
 	font-weight: bold;
@@ -49,12 +52,13 @@ h1 {
 h2 {
 	margin: 0 auto;
 	font-size: 220px;
-	color: #69899E; /* Grey */
+	color: #69899E;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	position: relative;
-	padding-top: 83px;
+	padding-top: 83.25px;
 }
+*/
 
 h3 {
 	font-size: 12px;
