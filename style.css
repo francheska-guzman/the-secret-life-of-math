@@ -99,7 +99,7 @@ a:hover {
 
 #dogAsking {
 	width: 700px;
-	padding-top: 70px;
+	padding: 40px 0 0 0;
 	font-family: 'petFont';
 }
 
